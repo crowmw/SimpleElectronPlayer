@@ -15,7 +15,7 @@ module.exports = {
     contentBase: './public',
     publicPath: 'http://localhost:8080/built/'
   },
-
+  target: 'Electron',
   module: {
     loaders: [
       {

@@ -9,7 +9,7 @@ body{
   font-family: 'Exo 2', sans-serif;
 }
 
-.scotch_music{
+.player-music{
   position: relative;
 }
 
@@ -22,7 +22,7 @@ body{
   border-bottom: 2px solid rgb(243, 139, 114);
   outline: none;
   background: rgba(255, 255, 255, 0.8);
-  padding: 5px;
+  padding: 0px;
 }
 
 .details h3{

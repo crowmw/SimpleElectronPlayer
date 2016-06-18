@@ -1,7 +1,7 @@
 // Import React
 import React from 'react';
 // Import React's Autocomplete component
-import Autocomplete from 'react-autocomplete';
+import AutoComplete from 'react-autocomplete';
 
 // Create Search component class
 class Search extends React.Component{
@@ -33,7 +33,7 @@ class Search extends React.Component{
     // Return JSX via render()
     return (
       <div className="search">
-        <Autocomplete
+        <AutoComplete
          ref="autocomplete"
          inputProps={{title: "Title"}}
          value={this.props.autoCompleteValue}
